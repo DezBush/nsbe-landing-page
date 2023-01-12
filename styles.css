@@ -90,8 +90,20 @@ header a, .links{
 
 .quote{
     background: #aeafb3;
+    padding: 80px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
 }
 
+.quote em{
+
+    font-size: 35px;
+}
+
+.quote b{
+    font-size: 20px;
+}
 .footer{
     height: 50px;
     color: #e5e7eb;
